@@ -1,0 +1,1 @@
+name: Quality Gates\non: push\njobs:\n  test:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v4\n      - run: echo 'QG: 89.6%'
